@@ -4,7 +4,7 @@ For the Maker Faire, I built a replica of the μL914 NOR gate using discrete tra
 
 ![PCB implementation of the μL914 NOR gate.](box.jpg?raw=true "μL914 NOR gate.")
 
-You can compare this to a die photo of the chip:
+You can compare this to a die photo of the chip ([decapping video](https://youtu.be/GfbNiD0pmgs)):
 
 ![Die photo of μL914 NOR gate, courtesy of John McMaster](decap.jpg?raw=true "Die photo of μL914 NOR gate, courtesy of John McMaster")
 
