@@ -6,7 +6,7 @@ For the Maker Faire, I built a replica of the μL914 NOR gate using discrete tra
 
 You can compare this to a die photo of the chip:
 
-![Die photo of μL914 NOR gate, courtesy of John McMaster](chip.jpg?raw=true "Die photo of μL914 NOR gate, courtesy of John McMaster")
+![Die photo of μL914 NOR gate, courtesy of John McMaster](decap.jpg?raw=true "Die photo of μL914 NOR gate, courtesy of John McMaster")
 
 I build this as part of the "Uncovering the Silicon" project at Maker Faire, along with Lenore Edman, Windell Oskay, Eric Schlaepfer and John McMaster.
 The purpose of this project was to help people understand how ICs actually function internally.
