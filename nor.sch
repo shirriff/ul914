@@ -1,0 +1,313 @@
+EESchema Schematic File Version 4
+LIBS:nor-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Q_NPN_BEC Q3
+U 1 1 5CC1E4A1
+P 4400 5200
+F 0 "Q3" H 4591 5246 50  0000 L CNN
+F 1 "Q_NPN_BEC" H 4591 5155 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-264_Vertical" H 4600 5300 50  0001 C CNN
+F 3 "" H 4400 5200 50  0001 C CNN
+	1    4400 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BEC Q1
+U 1 1 5CC1E50E
+P 3700 2250
+F 0 "Q1" H 3891 2296 50  0000 L CNN
+F 1 "Q_NPN_BEC" H 3891 2205 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-264_Vertical" H 3900 2350 50  0001 C CNN
+F 3 "" H 3700 2250 50  0001 C CNN
+	1    3700 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BEC Q2
+U 1 1 5CC1E552
+P 3800 3300
+F 0 "Q2" H 3991 3346 50  0000 L CNN
+F 1 "Q_NPN_BEC" H 3991 3255 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-264_Vertical" H 4000 3400 50  0001 C CNN
+F 3 "" H 3800 3300 50  0001 C CNN
+	1    3800 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BEC Q4
+U 1 1 5CC1E6BA
+P 5200 4300
+F 0 "Q4" H 5390 4346 50  0000 L CNN
+F 1 "Q_NPN_BEC" H 5390 4255 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-264_Vertical" H 5400 4400 50  0001 C CNN
+F 3 "" H 5200 4300 50  0001 C CNN
+	1    5200 4300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SparkFun_SchematicComponents:SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1% R1
+U 1 1 5CC1E833
+P 3050 2200
+F 0 "R1" H 3050 2394 45  0000 C CNN
+F 1 "SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1%" H 3050 2310 45  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3080 2350 20  0001 C CNN
+F 3 "" H 3050 2200 60  0001 C CNN
+	1    3050 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun_SchematicComponents:SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1% R2
+U 1 1 5CC1EB1A
+P 3100 3300
+F 0 "R2" H 3100 3494 45  0000 C CNN
+F 1 "SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1%" H 3100 3410 45  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3130 3450 20  0001 C CNN
+F 3 "" H 3100 3300 60  0001 C CNN
+	1    3100 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun_SchematicComponents:SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1% R3
+U 1 1 5CC1EC96
+P 3800 4300
+F 0 "R3" H 3800 4494 45  0000 C CNN
+F 1 "SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1%" H 3800 4410 45  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3830 4450 20  0001 C CNN
+F 3 "" H 3800 4300 60  0001 C CNN
+	1    3800 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun_SchematicComponents:SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1% R5
+U 1 1 5CC1EFA2
+P 6350 4350
+F 0 "R5" H 6350 4544 45  0000 C CNN
+F 1 "SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1%" H 6350 4460 45  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6380 4500 20  0001 C CNN
+F 3 "" H 6350 4350 60  0001 C CNN
+	1    6350 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun_SchematicComponents:SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1% R6
+U 1 1 5CC1F29E
+P 6500 2750
+F 0 "R6" V 6458 2818 45  0000 L CNN
+F 1 "SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1%" V 6542 2818 45  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6530 2900 20  0001 C CNN
+F 3 "" H 6500 2750 60  0001 C CNN
+	1    6500 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun_SchematicComponents:SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1% R4
+U 1 1 5CC1FB16
+P 5500 2350
+F 0 "R4" H 5500 2156 45  0000 C CNN
+F 1 "SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1%" H 5500 2240 45  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5530 2500 20  0001 C CNN
+F 3 "" H 5500 2350 60  0001 C CNN
+	1    5500 2350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 2250 3250 2250
+Wire Wire Line
+	3250 2250 3250 2200
+Wire Wire Line
+	4500 5400 4500 5500
+Wire Wire Line
+	4500 5500 5050 5500
+Wire Wire Line
+	5050 5500 5050 4500
+Wire Wire Line
+	5050 4500 5100 4500
+Connection ~ 4500 5500
+Wire Wire Line
+	4500 5500 4500 5850
+Wire Wire Line
+	5050 4500 4500 4500
+Wire Wire Line
+	4500 4500 4500 3500
+Wire Wire Line
+	4500 3500 3900 3500
+Connection ~ 5050 4500
+Wire Wire Line
+	4500 3500 4500 2450
+Wire Wire Line
+	4500 2450 3800 2450
+Connection ~ 4500 3500
+Wire Wire Line
+	3600 3300 3300 3300
+Wire Wire Line
+	4200 5200 4200 4300
+Wire Wire Line
+	4200 4300 4000 4300
+Wire Wire Line
+	3900 3100 4200 3100
+Wire Wire Line
+	4200 3100 4200 2600
+Wire Wire Line
+	4200 2050 3800 2050
+Wire Wire Line
+	5700 2350 5700 2600
+Wire Wire Line
+	5700 2600 4200 2600
+Connection ~ 4200 2600
+Wire Wire Line
+	4200 2600 4200 2050
+Wire Wire Line
+	5700 2350 7200 2350
+Wire Wire Line
+	7200 2350 7200 2300
+Connection ~ 5700 2350
+Wire Wire Line
+	5300 2350 5300 1650
+Wire Wire Line
+	5300 1650 5800 1650
+Wire Wire Line
+	6500 1650 6500 2550
+Wire Wire Line
+	6500 2950 6500 3700
+Wire Wire Line
+	6500 4100 5100 4100
+Wire Wire Line
+	4500 5000 4800 5000
+Wire Wire Line
+	4800 5000 4800 4100
+Wire Wire Line
+	4800 4100 5100 4100
+Connection ~ 5100 4100
+Wire Wire Line
+	6150 4350 5400 4350
+Wire Wire Line
+	5400 4350 5400 4300
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5CC2352E
+P 2650 2200
+F 0 "TP1" H 2708 2320 50  0000 L CNN
+F 1 "TestPoint" H 2708 2229 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 2850 2200 50  0001 C CNN
+F 3 "~" H 2850 2200 50  0001 C CNN
+	1    2650 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5CC237CC
+P 2650 3350
+F 0 "TP2" H 2708 3470 50  0000 L CNN
+F 1 "TestPoint" H 2708 3379 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 2850 3350 50  0001 C CNN
+F 3 "~" H 2850 3350 50  0001 C CNN
+	1    2650 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5CC23976
+P 2650 4300
+F 0 "TP3" H 2708 4420 50  0000 L CNN
+F 1 "TestPoint" H 2708 4329 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 2850 4300 50  0001 C CNN
+F 3 "~" H 2850 4300 50  0001 C CNN
+	1    2650 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5CC23A5F
+P 4350 5850
+F 0 "TP4" H 4408 5970 50  0000 L CNN
+F 1 "TestPoint" H 4408 5879 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 4550 5850 50  0001 C CNN
+F 3 "~" H 4550 5850 50  0001 C CNN
+	1    4350 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5CC23B5A
+P 6700 5900
+F 0 "TP6" H 6758 6020 50  0000 L CNN
+F 1 "TestPoint" H 6758 5929 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 6900 5900 50  0001 C CNN
+F 3 "~" H 6900 5900 50  0001 C CNN
+	1    6700 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5CC23DFC
+P 7200 2300
+F 0 "TP8" H 7258 2420 50  0000 L CNN
+F 1 "TestPoint" H 7258 2329 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 7400 2300 50  0001 C CNN
+F 3 "~" H 7400 2300 50  0001 C CNN
+	1    7200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5CC2431A
+P 7100 3700
+F 0 "TP7" H 7158 3820 50  0000 L CNN
+F 1 "TestPoint" H 7158 3729 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 7300 3700 50  0001 C CNN
+F 3 "~" H 7300 3700 50  0001 C CNN
+	1    7100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5CC2459E
+P 5800 1650
+F 0 "TP5" H 5858 1770 50  0000 L CNN
+F 1 "TestPoint" H 5858 1679 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 6000 1650 50  0001 C CNN
+F 3 "~" H 6000 1650 50  0001 C CNN
+	1    5800 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 1650
+Wire Wire Line
+	5800 1650 6500 1650
+Wire Wire Line
+	2650 2200 2850 2200
+Wire Wire Line
+	2650 3350 2900 3350
+Wire Wire Line
+	2900 3350 2900 3300
+Wire Wire Line
+	2650 4300 3600 4300
+Wire Wire Line
+	4350 5850 4500 5850
+Wire Wire Line
+	7100 3700 6500 3700
+Connection ~ 6500 3700
+Wire Wire Line
+	6500 3700 6500 4100
+Wire Wire Line
+	6650 5950 6650 4350
+Wire Wire Line
+	6650 4350 6550 4350
+Wire Wire Line
+	6700 5900 6700 5950
+Wire Wire Line
+	6700 5950 6650 5950
+$EndSCHEMATC
